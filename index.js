@@ -15,7 +15,7 @@ function removeLoadingDisplay() {
 }
 function displayItemsUniquely() {
   if ((removeLoadingDisplay = true)) {
-    Nav.style.animation = "displaynav 4.1s ease-in";
+    Nav.style.animation = "displaynav 4.1s cubic-bezier(0.42, 0.01, 1, 1)";
   }
 }
 displayItemsUniquely();
